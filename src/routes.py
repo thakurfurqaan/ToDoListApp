@@ -17,7 +17,7 @@ def register_routes(app):
 
     @app.route("/tasks/<int:task_id>/complete", methods=["PUT"])
     def mark_task_complete(task_id):
-        task = db.session.get(Task, task_id)  # Use Session.get() instead of Query.get()
+        task = db.session.get(Task, task_id)
         if task is None:
             return jsonify({"error": "Task not found"}), 404
 
