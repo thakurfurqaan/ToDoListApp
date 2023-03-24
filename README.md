@@ -71,4 +71,4 @@ Creating this app as an Interview Assessment project for NewsReels. A simple ToD
     ```
 
 ## Maintainer
-- (Furqaan Thakur)[thakurfurqaan@gmail.com]
+- [Furqaan Thakur](thakurfurqaan@gmail.com)
